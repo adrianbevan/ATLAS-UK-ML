@@ -35,7 +35,9 @@ learning tutorial examples online at the following page.
 
 -------------------------------------------------------------------------------------------------
 Author: Adrian Bevan (a.j.bevan@qmul.ac.uk)
+
 Copyright (C) Queen Mary University of London
+
 This code is distributed under the terms and conditions of the GNU Public License
 
 -------------------------------------------------------------------------------------------------
