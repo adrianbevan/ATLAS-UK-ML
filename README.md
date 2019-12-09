@@ -29,8 +29,8 @@ slide deck pdf files:
 
 -------------------------------------------------------------------------------------------------
 
-If you are interested in machine learning then you will find some of my other machine 
-learning tutorial examples online at the following page.
+If you are interested in machine learning then you may find some of my other machine 
+learning tutorial examples online of interest. These can be found at the following page.
   https://pprc.qmul.ac.uk/~bevan/teaching.html
 
 -------------------------------------------------------------------------------------------------
