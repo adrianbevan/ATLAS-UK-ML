@@ -213,7 +213,7 @@ int TMVAClassification( TString myMethodList = "" )
    // Boosted Decision Trees
    if (Use["BDT"])  // Adaptive Boost
       factory->BookMethod( dataloader, TMVA::Types::kBDT, "BDT",
-                           "!H:!V:NTrees=850:MinNodeSize=2.5%:MaxDepth=3:BoostType=AdaBoost:AdaBoostBeta=0.5:UseBaggedBoost:BaggedSampleFraction=0.5:SeparationType=GiniIndex:nCuts=20:VarTransform=D" );
+                           "!H:!V:NTrees=850:MinNodeSize=2.5%:MaxDepth=3:BoostType=AdaBoost:AdaBoostBeta=0.5:UseBaggedBoost:BaggedSampleFraction=0.5:SeparationType=GiniIndex:nCuts=20" );
 
 
    // For an example of the category classifier usage, see: TMVAClassificationCategory
@@ -226,7 +226,7 @@ int TMVAClassification( TString myMethodList = "" )
    //     factory->OptimizeAllMethods("ROCIntegral","FitGA");
    //
    // --------------------------------------------------------------------------------------------------
-   factory->OptimizeAllMethods();
+   // factory->OptimizeAllMethods();
 
    // Now you can tell the factory to train, test, and evaluate the MVAs
    //

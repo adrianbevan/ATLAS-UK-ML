@@ -91,8 +91,8 @@ int Htautau( TString myMethodList )
 
    // Read training and test data
    // (it is also possible to use ASCII format as input -> see TMVA Users Guide)
-   TString sfname = "./data/train_sml_sig.csv";
-   TString bfname = "./data/train_sml_bg.csv";
+   TString sfname = "../data/train_sml_sig.csv";
+   TString bfname = "../data/train_sml_bg.csv";
 
    // Register the training and test trees
    TTree *signalTree = readData(sfname, "signal");
