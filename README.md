@@ -24,8 +24,33 @@ a considered choice
 
 Please see the following web page for this material, which includes downloadable tar balls and 
 slide deck pdf files:
+
   https://pprc.qmul.ac.uk/~bevan/teaching/ATLAS-UK-ML.html
 
+Getting Started:
+----------------
+Clone the repository with the following command to get started with working with these examples.
+     git clone --branch master https://github.com/adrianbevan/ATLAS-UK-ML.git
+
+The examples pertaining to a given algorithm can be found in the different directories:
+
+     BDT - decision trees using ROOT (C++)
+     NN  - Neural Networks using TensorFlow (Python)
+
+
+Software Requirements:
+----------------------
+
+ROOT can be installed from the CERN web page:
+     https://root.cern.ch
+
+The Python environment that these tutorials has been tested on is packaged in the Anaconda framework:
+	   https://www.anaconda.com
+  1. Install Anaconda
+  2. Add the following packages:
+        matplotlib
+        scklearn
+        tensorflow
 
 -------------------------------------------------------------------------------------------------
 
