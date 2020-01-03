@@ -1,5 +1,5 @@
-# ATLAS-UK-ML / NN
-ATLAS UK Machine Learning Tutorial - Boosted Decision Trees (BDTs)
+# ATLAS-UK-ML / BDTs
+ATLAS UK Machine Learning Tutorial - Boosted Decision Trees
 -------------------------------------------------------------------------------------------------
 This folder contains TMVA-based macros that can be used to train different boosted decision trees,
 and to compare the reciever operating characteristic (ROC) curve performance between different models.
